@@ -41,7 +41,7 @@ public class MainClase2 {
         //EJERCICIO6
         System.out.println(((5 > 3) && (10 < 20)) && ((5 > 3) || (10 > 20))); //Espero un booleano porque son operadores logicos
         /*En ambos casos el resultado sera true, porque el primero evalua que 5 sea mayor que tres y 10 menor que 20;
-        el segundo evalua lo mencionado ahora y ademas que 5 sea mayor que 3 o 10 mayor que 20, como se cumple una de las dos
+        el segundo evalua lo mencionado y ademas que 5 sea mayor que 3 o 10 mayor que 20, como se cumple una de las dos
         es tambien true, por lo tanto true y true imprime true
          */
 
@@ -78,14 +78,7 @@ public class MainClase2 {
         System.out.println("Introduzca cuantos dolares quiere cambiar a euros: ");
         numero6 = scn6.nextInt();
         System.out.println("Usted recibira "+ (numero6*tasaCambio) + "euros");
-
-
-
-
-
-
-
-
-
+        System.out.println("Estoy probando como actualizar facilmente en github");
     }
 }
+
