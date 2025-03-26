@@ -78,7 +78,6 @@ public class MainClase2 {
         System.out.println("Introduzca cuantos dolares quiere cambiar a euros: ");
         numero6 = scn6.nextInt();
         System.out.println("Usted recibira "+ (numero6*tasaCambio) + "euros");
-        System.out.println("Estoy probando como actualizar facilmente en github");
     }
 }
 
