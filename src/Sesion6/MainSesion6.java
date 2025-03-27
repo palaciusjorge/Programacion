@@ -24,6 +24,16 @@ public class MainSesion6 {
             }
             System.out.println(i);
         }
+        /*EJERCICIO3
+        Haz un programa que busque el número 7 entre los números del 1 al 20. Cuando lo encuentre, debe mostrar un mensaje y terminar el bucle con break.
+         */
+        for(int a=0;a<20;a++){
+            System.out.println("Aun no he encontrado el 7 :(");
+            if(a==7){
+                System.out.println("He econtrado el 7, rompo el bucle");
+                break;
+            }
+        }
 
 
 
