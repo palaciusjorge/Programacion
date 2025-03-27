@@ -29,7 +29,7 @@ public class MainSesion6 {
          */
         for(int a=0;a<20;a++){
             System.out.println("Aun no he encontrado el 7 :(");
-            if(a==7){
+            if(a==7){//no se si es muy correcto romper un bucle dentro de un condicional
                 System.out.println("He econtrado el 7, rompo el bucle");
                 break;
             }
