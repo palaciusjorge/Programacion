@@ -8,7 +8,7 @@ public class MainSesion6 {
          Usa un bucle while con break.
          */
         Scanner scn1 = new Scanner(System.in);
-        System.out.println("Introduzca un numero entero: ");
+        System.out.println("Introduzca un numero entero positivo: ");
         int numero = scn1.nextInt();
         while (true) {
             if (numero == 0) {
@@ -47,5 +47,10 @@ public class MainSesion6 {
                 System.out.println(palabra.charAt(contador));
             }
         }
+        /*EJERCICIO 5
+        Haz un programa que divida dos números enteros introducidos por el usuario. Usa try-catch para evitar que el programa se rompa si el divisor es 0.
+         */
+
+
     }
 }

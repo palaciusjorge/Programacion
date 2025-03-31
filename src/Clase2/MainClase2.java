@@ -9,11 +9,10 @@ public class MainClase2 {
         //EJERCICIO2
         int a = 25, b = 7;
         double adouble, bdouble;
-        adouble = a;
-        bdouble = b;
+        double resultado_division = (double)a / (double)b;
         System.out.println("Suma: " +(a + b));
         System.out.println("Resta: " +(a - b));
-        System.out.println("Division: "+ (adouble/bdouble));
+        System.out.println("Division: "+ resultado_division);
         System.out.println("Multiplicacion: "+ (a*b));
         System.out.println("Modulo: "+(a%b));
 
@@ -73,7 +72,7 @@ public class MainClase2 {
 
         //EJERCICIO10
         Scanner scn6 = new Scanner(System.in);
-        final double tasaCambio = 1.12;
+        final float tasaCambio = 1.12f;
         int numero6;
         System.out.println("Introduzca cuantos dolares quiere cambiar a euros: ");
         numero6 = scn6.nextInt();
