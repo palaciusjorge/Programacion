@@ -8,7 +8,6 @@ public class MainClase2 {
 
         //EJERCICIO2
         int a = 25, b = 7;
-        double adouble, bdouble;
         double resultado_division = (double)a / (double)b;
         System.out.println("Suma: " +(a + b));
         System.out.println("Resta: " +(a - b));
