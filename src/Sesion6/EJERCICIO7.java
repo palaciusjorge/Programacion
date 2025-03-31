@@ -14,7 +14,7 @@ public class EJERCICIO7 {
         int divisor = scanner.nextInt();
         try{
             int resultado = dividendo/divisor;
-            System.out.println("El resultado de la division es : " + resultado);
+            System.out.println( "El resultado de la division es : " + resultado);
         } catch(ArithmeticException ex){
             System.err.println("Error: No esta permitido dividir por 0");
         } finally{
