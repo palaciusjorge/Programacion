@@ -1,5 +1,6 @@
 package EJERCICIOS_GITHUB;
 import java.util.Scanner;
+import java.util.Random;
 public class EJERCICIOS_GITHUB {
     public static void main(String[] args) {
         //EJERCICIO 1: CLASIFICACIÓN DE EDAD
@@ -96,12 +97,35 @@ public class EJERCICIOS_GITHUB {
 
         }
 
-        // EJERCICIO 6 : Adivina el numero
+        // EJERCICIO 6 : Adivina el numero con pistas
 
+        Scanner scanner7 = new Scanner(System.in);
+        Random rand = new Random();
+        int numeroSecreto = rand.nextInt(100) + 1;
+        int intento;
+        do{
+            System.out.println("Prueba suerte con un numero del 1 al 100 : ");
+            intento = scanner7.nextInt();
+            if(intento<numeroSecreto){
+                System.out.println("El numero es mayor que el introducido");
+            }else{
+                System.out.println("El numero es menor que el introducido");
+            }
+        }while(intento != numeroSecreto);
+        System.out.println("Enhorabuena has encontrado el numero secreto.");
 
-
-
-
+        // EJERCICIO 7 : Serie de Fibonacci
+        Scanner scanner8 = new Scanner(System.in);
+        int numeroDeTerminos;
+        System.out.println("Introduce el numero de terminos de la serie que quieres imprimir :");
+        numeroDeTerminos = scanner8.nextInt();
+        int termino1 = 0, termino2 = 1, termino3;
+        for(int i = 0; i < numeroDeTerminos; i ++){
+            System.out.println(termino1 + "");
+            termino3 = termino1 + termino2;
+            termino1 = termino2;
+            termino2 = termino3;
+        }
 
     }
 }
