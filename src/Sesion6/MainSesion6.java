@@ -41,7 +41,7 @@ public class MainSesion6 {
          */
         String palabra = "PROGRAMACION";
         for (int contador = 0; contador < palabra.length(); contador++) {
-            if (palabra.charAt(contador) == 'A' || palabra.charAt(contador) == 'E'  || palabra.charAt(contador) == 'I'  || palabra.charAt(contador) == 'O'  || palabra.charAt(contador) == 'U' ) {
+            if ("AEIOU".indexOf(palabra.charAt(contador)) != -1){
                 continue;
             }
             System.out.print(palabra.charAt(contador));
@@ -50,6 +50,7 @@ public class MainSesion6 {
         /*EJERCICIO 5
         Haz un programa que divida dos números enteros introducidos por el usuario. Usa try-catch para evitar que el programa se rompa si el divisor es 0.
          */
+
 
 
     }
