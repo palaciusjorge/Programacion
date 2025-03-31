@@ -27,7 +27,7 @@ public class MainClase2 {
         numero1 = scn1.nextInt();
         System.out.println("Introduzca otro numero entero: ");
         numero2 = scn2.nextInt();
-        //Estas lineas de codigo necesitarian un control de entrada de datos (que no lo introduzcan en formato String, etc.
+        //Estas lineas de codigo necesitarian un control de entrada de datos (que no lo introduzcan en formato String, etc.)
         //Tambien podria imprimir unicamente el resultado utilizando condicionales, pero no se si excede los conocimientos para los que esta diseñado este ejercicio.
         System.out.println("Es " + numero1 + " mayor que " + numero2 + "? " + (numero1 > numero2));
         System.out.println("Es " + numero2 + " mayor que " + numero1 + "? " + (numero2 > numero1));
