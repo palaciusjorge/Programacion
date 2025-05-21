@@ -39,7 +39,6 @@ public class EJERCICIO3 {
                 break;
             default:
                 System.out.println("Opcion no valida.");
-
         }
     }
 }
