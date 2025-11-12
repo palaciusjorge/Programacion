@@ -1,9 +1,5 @@
 package matrices_y_mapas;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.net.StandardSocketOptions;
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class ejercicio1 {
